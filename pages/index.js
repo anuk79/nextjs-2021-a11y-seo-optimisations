@@ -14,7 +14,7 @@ export default function Home() {
         <meta name="og:title" content="Fight inaccessibility game - Play now" />
         <meta name="og:description" content="Game to learn accessibility - you have multiple stages where you can fight with in accessible solutions and find the accessible one" />
         <meta name="og:type" content="website" />
-        <meta name="og:image" content="/brandImage.png" />
+        <meta name="og:image" content="https://fight-inaccessibility.vercel.app/brandImage.png" />
         <meta name="og:url" content="https://fight-inaccessibility.vercel.app/" />
       </Head>
 
