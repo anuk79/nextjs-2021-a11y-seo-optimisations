@@ -11,11 +11,11 @@ export default function Home() {
         <title>Fight inaccessibility - Home</title>
         <meta name="description" content="Game to learn accessibility - you have multiple stages where you can fight with in accessible solutions and find the accessible one" />
         <link rel="icon" href="/favicon.ico" />
-        <meta name="og:title" content="Fight inaccessibility game - Play now" />
+        {/* <meta name="og:title" content="Fight inaccessibility game - Play now" />
         <meta name="og:description" content="Game to learn accessibility - you have multiple stages where you can fight with in accessible solutions and find the accessible one" />
         <meta name="og:type" content="website" />
-        <meta name="og:image" content="/GameOG.png" />
-        <meta name="og:url" content="https://fight-inaccessibility.vercel.app/" />
+        <meta name="og:image" content="/brandImage.png" />
+        <meta name="og:url" content="https://fight-inaccessibility.vercel.app/" /> */}
       </Head>
 
       <header>
