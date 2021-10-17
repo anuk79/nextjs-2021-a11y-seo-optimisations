@@ -46,9 +46,19 @@
 
 .title {
   margin: 0;
-  margin-top: 2rem;
-  line-height: 1.15;
-  font-size: 4rem;
+  margin: 2rem 1rem 0;
+  line-height: 1.2;
+  font-size: 3rem;
+}
+
+.title a {
+  color: black;
+  text-decoration: none;
+}
+
+.title a:hover, .title a:focus {
+  text-decoration: none;
+  outline-color: black;
 }
 
 .title,
@@ -112,6 +122,18 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.gameSection {
+  margin: 2rem 3rem;
+}
+
+.gameSection fieldset {
+  margin: 2rem 0;
+}
+
+.gameSection input, .gameSection label {
+  margin: 0.8rem 0.5rem 0 0;
 }
 
 @media (max-width: 600px) {

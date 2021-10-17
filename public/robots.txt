@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://fight-inaccessibility.vercel.app/
+
+# Sitemaps
+Sitemap: https://fight-inaccessibility.vercel.app/sitemap.xml
