@@ -18,16 +18,18 @@ function Layout ({ children }) {
         {children}
       </main>
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+        <div>
+          <a
+            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Powered by Vercel
+          </a>
+        </div>
+        <div>
+          This game website is created by <a href="https://anuradhakumari.com/">Anuradha Kumari</a> to show demo for accessibility and SEO optimisations for a Next JS application.
+        </div>
       </footer>
     </div>
   )

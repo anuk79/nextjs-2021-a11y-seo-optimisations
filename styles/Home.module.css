@@ -1,15 +1,15 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  padding: 1rem 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .main {
-  padding: 5rem 0;
+  padding: 5rem 1rem;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -19,18 +19,17 @@
 
 .footer {
   width: 100%;
-  height: 100px;
+  min-height: 100px;
   border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+.footer div {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.title h1 {
+  padding-top: 15px;
 }
 
 .title a {
@@ -140,5 +139,13 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+
+  .footer div:last-child {
+    padding-bottom: 3rem;
+  }
+
+  .gameSection {
+    margin: 0.5rem;
   }
 }

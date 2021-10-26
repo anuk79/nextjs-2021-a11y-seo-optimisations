@@ -18,13 +18,7 @@ export default function Home() {
         <meta name="og:url" content="https://fight-inaccessibility.vercel.app/" />
       </Head>
 
-      <header>
-        <h1 className={styles.title}>
-          Welcome to the game, together we fight inaccessibility
-        </h1>
-      </header>
-
-      <main className={styles.main}>
+      <Layout>
         <section>
           <h2>
             Start the game? Choose level:
@@ -47,20 +41,7 @@ export default function Home() {
             </li>
           </ul>
         </section>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
+      </Layout>
     </div>
   )
 }
