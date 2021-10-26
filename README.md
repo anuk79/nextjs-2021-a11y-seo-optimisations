@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Details
+- It has been created to show demo for [Next JS Conf 2021](https://nextjs.org/conf).
+- The [main](https://github.com/anuk79/nextjs-2021-a11y-seo-optimisations) branch contains the final code
+- The [optimisations-code](https://github.com/anuk79/nextjs-2021-a11y-seo-optimisations/tree/optimisations-code) branch contains the code for the optimisations (like title, head, layout fixes, etc.)
+- The [open-graph-demo](https://github.com/anuk79/nextjs-2021-a11y-seo-optimisations/tree/open-graph-demo) branch contains the code for the open graph demo
+- You can find the deployed website at [Fight inaccessibility](https://fight-inaccessibility.vercel.app/)
+- The talk presentation slides can be found at [Anuradha kumari's talks](https://www.anuradhakumari.com/talks)
+
 ## Getting Started
 
 First, run the development server:

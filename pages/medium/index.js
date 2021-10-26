@@ -19,24 +19,23 @@ export default function Medium() {
                 {
                     label: 'Focus visible',
                     options: [
-                        { value: 0, label: 'What is text alternatives?', id: '1_1' },,
-                        { value: 0, label: 'I add some random text so that lighthouse is green.', id: '1_2' },,
-                        { value: 10, label: 'Yes, I always add meaningful alternative text for descriptive images, and empty string for decorative images.', id: '1_3' },
+                        { value: 0, label: 'What is it?', id: '1_1' },,
+                        { value: 0, label: 'Focus outlines make websites ugly, I use outline: none.', id: '1_2' },,
+                        { value: 10, label: 'I always make sure that that focus on current interactive element is visible using outlines or custom styling.', id: '1_3' },
                     ]
                 },
                 {
                     label: 'Language of parts',
                     options: [
-                        { value: 0, label: 'Divs, divs everywhere', id: '2_1' },,
-                        { value: 10, label: 'button tags for button', id: '2_2' },,
+                        { value: 0, label: 'I have added language code to HTML tag, it should be enough?', id: '2_1' },,
+                        { value: 10, label: 'I make sure to add language codes to sections which are in a different language than the website primary language.', id: '2_2' },,
                     ]
                 },
                 {
                     label: 'Audio Description (Prerecorded)',
                     options: [
-                        { value: 0, label: 'What do you mean?', id: '3_1' },,
-                        { value: 1, label: 'Yes, I use one title for all pages', id: '3_2' },,
-                        { value: 10, label: 'Yes, I use customised titles, tailored for each page', id: '3_3' },,
+                        { value: 0, label: 'I do not have time for it.', id: '3_1' },,
+                        { value: 10, label: 'Yes, I add audio description for all the pre-recorded audio contents.', id: '3_2' },,
                     ]
                 }
                 
