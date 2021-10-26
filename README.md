@@ -1,3 +1,6 @@
+## Fight inaccessibility
+![This a game where you fight the web inaccessibility by answering situational questions and how you handle those situations.](https://github.com/anuk79/nextjs-2021-a11y-seo-optimisations/blob/main/public/brandImage.png)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Details
